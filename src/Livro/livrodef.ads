@@ -15,11 +15,11 @@ package LivroDef is
    procedure setValor(self : out Livro; value : Float);
    function getValor(self : Livro) return Float;
    
-   procedure setQuantidade(self : out Livro; value : Integer);
-   function getQuantidade(self : Livro) return Integer;
+   procedure setQuantidade(self : out Livro; value : Natural);
+   function getQuantidade(self : Livro) return Natural;
    
-   procedure setID(self : out Livro; value : Integer);
-   function getID(self : Livro) return Integer;
+   procedure setID(self : out Livro; value : Natural);
+   function getID(self : Livro) return Natural;
    
    --Tipos derivados
    type LivroDrama is new Livro with private;
@@ -40,10 +40,10 @@ package LivroDef is
 private
    --Definição das variáveis dentro do tipo
    type Livro is tagged record
-         Nome : Unbounded_String;
-         Valor : Float;
-         Quantidade : Integer;
-         ID : Integer;
+         Nome : Unbounded_String := To_Unbounded_String("");
+         Valor : Float := 0.0;
+         Quantidade : Natural := 0;
+         ID : Natural := 0;
    end record;
    
    --Definição dos tipos derivados

@@ -22,22 +22,22 @@ package body LivroDef is
       return self.Valor;
    end getValor;
 
-   procedure setQuantidade(self : OUT Livro; value : Integer) is
+   procedure setQuantidade(self : OUT Livro; value : Natural) is
    begin
       self.Quantidade := value;
    end setQuantidade;
    
-   function getQuantidade(self : Livro) return Integer is
+   function getQuantidade(self : Livro) return Natural is
    begin
       return self.Quantidade;
    end getQuantidade;
    
-   procedure setID(self : OUT Livro; value : Integer) is
+   procedure setID(self : OUT Livro; value : Natural) is
    begin
       self.ID := value;
    end setID;
    
-   function getID(self : Livro) return Integer is
+   function getID(self : Livro) return Natural is
    begin
       return self.ID;
    end getID;
