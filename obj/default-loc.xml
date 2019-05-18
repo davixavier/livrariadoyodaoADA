@@ -1,0 +1,461 @@
+<?xml version="1.0"?>
+<Locations >
+  <Project>
+    <vfs_file />
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\GNAT\2018\bin\TESTE\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 6" line=" 6" >
+      <vfs_project />
+      <vfs_file>C:\GNAT\2018\bin\TESTE\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 6" line=" 6" >
+      <vfs_project />
+      <vfs_file>C:\GNAT\2018\bin\TESTE\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 18" line=" 4" >
+      <vfs_project />
+      <vfs_file>C:\GNAT\2018\bin\TESTE\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 6" line=" 6" >
+      <vfs_project />
+      <vfs_file>C:\GNAT\2018\bin\TESTE\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 6" line=" 6" >
+      <vfs_project />
+      <vfs_file>C:\GNAT\2018\bin\TESTE\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 18" line=" 4" >
+      <vfs_project />
+      <vfs_file>C:\GNAT\2018\bin\TESTE\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 6" line=" 6" >
+      <vfs_project />
+      <vfs_file>C:\GNAT\2018\bin\TESTE\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 3" >
+      <vfs_project />
+      <vfs_file>C:\GNAT\2018\bin\TESTE\obj\teste.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 3" >
+      <vfs_project />
+      <vfs_file>C:\GNAT\2018\bin\TESTE\obj\teste.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 3" >
+      <vfs_project />
+      <vfs_file>C:\GNAT\2018\bin\TESTE\obj\teste.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 4" >
+      <vfs_project />
+      <vfs_file>C:\GNAT\2018\bin\TESTE\src\aaa.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 3" >
+      <vfs_project />
+      <vfs_file>C:\GNAT\2018\bin\TESTE\src\aaa.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\GNAT\2018\bin\TESTE\src\aaa.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 6" line=" 6" >
+      <vfs_project />
+      <vfs_file>C:\GNAT\2018\bin\TESTE\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 8" >
+      <vfs_project />
+      <vfs_file>C:\GNAT\2018\bin\TESTE\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 34" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\GNAT\2018\bin\TESTE\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\GNAT\2018\bin\TESTE\src\aaa.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 34" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\GNAT\2018\bin\TESTE\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\GNAT\2018\bin\TESTE\src\aaa.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 34" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\GNAT\2018\bin\TESTE\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 8" >
+      <vfs_project />
+      <vfs_file>C:\GNAT\2018\bin\TESTE\src\aaa.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 21" line=" 5" >
+      <vfs_project />
+      <vfs_file>C:\GNAT\2018\bin\TESTE\src\aaa.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 20" line=" 8" >
+      <vfs_project />
+      <vfs_file>C:\GNAT\2018\bin\TESTE\src\aaa.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 20" line=" 5" >
+      <vfs_project />
+      <vfs_file>C:\GNAT\2018\bin\TESTE\src\aaa.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 7" line=" 7" >
+      <vfs_project />
+      <vfs_file>C:\GNAT\2018\bin\TESTE\src\aaa.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 6" line=" 6" >
+      <vfs_project />
+      <vfs_file>C:\GNAT\2018\bin\TESTE\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 18" line=" 4" >
+      <vfs_project />
+      <vfs_file>C:\GNAT\2018\bin\TESTE\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 6" line=" 6" >
+      <vfs_project />
+      <vfs_file>C:\GNAT\2018\bin\TESTE\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 18" line=" 4" >
+      <vfs_project />
+      <vfs_file>C:\GNAT\2018\bin\TESTE\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 6" line=" 6" >
+      <vfs_project />
+      <vfs_file>C:\GNAT\2018\bin\TESTE\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 6" line=" 6" >
+      <vfs_project />
+      <vfs_file>C:\GNAT\2018\bin\TESTE\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 6" line=" 6" >
+      <vfs_project />
+      <vfs_file>C:\GNAT\2018\bin\TESTE\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\GNAT\2018\bin\TESTE\src\pessoa.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 5" >
+      <vfs_project />
+      <vfs_file>C:\GNAT\2018\bin\TESTE\src\pessoa.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 7" >
+      <vfs_project />
+      <vfs_file>C:\GNAT\2018\bin\TESTE\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 6" line=" 6" >
+      <vfs_project />
+      <vfs_file>C:\GNAT\2018\bin\TESTE\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 6" line=" 6" >
+      <vfs_project />
+      <vfs_file>C:\GNAT\2018\bin\TESTE\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 15" line=" 8" >
+      <vfs_project />
+      <vfs_file>C:\GNAT\2018\bin\TESTE\src\pessoa.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 6" line=" 6" >
+      <vfs_project />
+      <vfs_file>C:\GNAT\2018\bin\TESTE\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 18" line=" 4" >
+      <vfs_project />
+      <vfs_file>C:\GNAT\2018\bin\TESTE\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 6" line=" 6" >
+      <vfs_project />
+      <vfs_file>C:\GNAT\2018\bin\TESTE\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 7" >
+      <vfs_project />
+      <vfs_file>C:\GNAT\2018\bin\TESTE\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 6" line=" 6" >
+      <vfs_project />
+      <vfs_file>C:\GNAT\2018\bin\TESTE\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\GNAT\2018\bin\TESTE\src\pessoa.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\GNAT\2018\bin\TESTE\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 6" line=" 6" >
+      <vfs_project />
+      <vfs_file>C:\GNAT\2018\bin\TESTE\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 6" line=" 6" >
+      <vfs_project />
+      <vfs_file>C:\GNAT\2018\bin\TESTE\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 34" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\GNAT\2018\bin\TESTE\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 6" line=" 6" >
+      <vfs_project />
+      <vfs_file>C:\GNAT\2018\bin\TESTE\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 7" >
+      <vfs_project />
+      <vfs_file>C:\GNAT\2018\bin\TESTE\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 34" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\GNAT\2018\bin\TESTE\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 7" >
+      <vfs_project />
+      <vfs_file>C:\GNAT\2018\bin\TESTE\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 6" line=" 6" >
+      <vfs_project />
+      <vfs_file>C:\GNAT\2018\bin\TESTE\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 6" line=" 6" >
+      <vfs_project />
+      <vfs_file>C:\GNAT\2018\bin\TESTE\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\GNAT\2018\bin\TESTE\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 6" >
+      <vfs_project>C:\Users\DAVI-DESKTOP\Dropbox\UFC\LIP\LIVRARIADOYODAO\default.gpr</vfs_project>
+      <vfs_file>C:\Users\DAVI-DESKTOP\Dropbox\UFC\LIP\LIVRARIADOYODAO\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 6" line=" 7" >
+      <vfs_project>C:\Users\DAVI-DESKTOP\Dropbox\UFC\LIP\LIVRARIADOYODAO\default.gpr</vfs_project>
+      <vfs_file>C:\Users\DAVI-DESKTOP\Dropbox\UFC\LIP\LIVRARIADOYODAO\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 6" >
+      <vfs_project>C:\Users\DAVI-DESKTOP\Dropbox\UFC\LIP\LIVRARIADOYODAO\default.gpr</vfs_project>
+      <vfs_file>C:\Users\DAVI-DESKTOP\Dropbox\UFC\LIP\LIVRARIADOYODAO\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\DAVI-DESKTOP\Dropbox\UFC\LIP\LIVRARIADOYODAO\default.gpr</vfs_project>
+      <vfs_file>C:\Users\DAVI-DESKTOP\Dropbox\UFC\LIP\LIVRARIADOYODAO\src\livropack.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\DAVI-DESKTOP\Dropbox\UFC\LIP\LIVRARIADOYODAO\default.gpr</vfs_project>
+      <vfs_file>C:\Users\DAVI-DESKTOP\Dropbox\UFC\LIP\LIVRARIADOYODAO\src\livropack.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\DAVI-DESKTOP\Dropbox\UFC\LIP\LIVRARIADOYODAO\default.gpr</vfs_project>
+      <vfs_file>C:\Users\DAVI-DESKTOP\Dropbox\UFC\LIP\LIVRARIADOYODAO\src\livropack.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\DAVI-DESKTOP\Dropbox\UFC\LIP\LIVRARIADOYODAO\default.gpr</vfs_project>
+      <vfs_file>C:\Users\DAVI-DESKTOP\Dropbox\UFC\LIP\LIVRARIADOYODAO\src\livropack.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 6" line=" 7" >
+      <vfs_project>C:\Users\DAVI-DESKTOP\Dropbox\UFC\LIP\LIVRARIADOYODAO\default.gpr</vfs_project>
+      <vfs_file>C:\Users\DAVI-DESKTOP\Dropbox\UFC\LIP\LIVRARIADOYODAO\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\DAVI-DESKTOP\Dropbox\UFC\LIP\LIVRARIADOYODAO\default.gpr</vfs_project>
+      <vfs_file>C:\Users\DAVI-DESKTOP\Dropbox\UFC\LIP\LIVRARIADOYODAO\src\livropack.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 6" line=" 7" >
+      <vfs_project>C:\Users\DAVI-DESKTOP\Dropbox\UFC\LIP\LIVRARIADOYODAO\default.gpr</vfs_project>
+      <vfs_file>C:\Users\DAVI-DESKTOP\Dropbox\UFC\LIP\LIVRARIADOYODAO\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\DAVI-DESKTOP\Dropbox\UFC\LIP\LIVRARIADOYODAO\default.gpr</vfs_project>
+      <vfs_file>C:\Users\DAVI-DESKTOP\Dropbox\UFC\LIP\LIVRARIADOYODAO\src\livropack.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 6" >
+      <vfs_project>C:\Users\DAVI-DESKTOP\Dropbox\UFC\LIP\LIVRARIADOYODAO\default.gpr</vfs_project>
+      <vfs_file>C:\Users\DAVI-DESKTOP\Dropbox\UFC\LIP\LIVRARIADOYODAO\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\DAVI-DESKTOP\Dropbox\UFC\LIP\LIVRARIADOYODAO\default.gpr</vfs_project>
+      <vfs_file>C:\Users\DAVI-DESKTOP\Dropbox\UFC\LIP\LIVRARIADOYODAO\src\livropack.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\DAVI-DESKTOP\Dropbox\UFC\LIP\LIVRARIADOYODAO\default.gpr</vfs_project>
+      <vfs_file>C:\Users\DAVI-DESKTOP\Dropbox\UFC\LIP\LIVRARIADOYODAO\src\livropack.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 6" line=" 7" >
+      <vfs_project>C:\Users\DAVI-DESKTOP\Dropbox\UFC\LIP\LIVRARIADOYODAO\default.gpr</vfs_project>
+      <vfs_file>C:\Users\DAVI-DESKTOP\Dropbox\UFC\LIP\LIVRARIADOYODAO\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\DAVI-DESKTOP\Dropbox\UFC\LIP\LIVRARIADOYODAO\default.gpr</vfs_project>
+      <vfs_file>C:\Users\DAVI-DESKTOP\Dropbox\UFC\LIP\LIVRARIADOYODAO\src\livropack.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\DAVI-DESKTOP\Dropbox\UFC\LIP\LIVRARIADOYODAO\default.gpr</vfs_project>
+      <vfs_file>C:\Users\DAVI-DESKTOP\Dropbox\UFC\LIP\LIVRARIADOYODAO\src\livropack.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 6" line=" 7" >
+      <vfs_project>C:\Users\DAVI-DESKTOP\Dropbox\UFC\LIP\LIVRARIADOYODAO\default.gpr</vfs_project>
+      <vfs_file>C:\Users\DAVI-DESKTOP\Dropbox\UFC\LIP\LIVRARIADOYODAO\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\DAVI-DESKTOP\Dropbox\UFC\LIP\LIVRARIADOYODAO\default.gpr</vfs_project>
+      <vfs_file>C:\Users\DAVI-DESKTOP\Dropbox\UFC\LIP\LIVRARIADOYODAO\src\livropack.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\DAVI-DESKTOP\Dropbox\UFC\LIP\LIVRARIADOYODAO\default.gpr</vfs_project>
+      <vfs_file>C:\Users\DAVI-DESKTOP\Dropbox\UFC\LIP\LIVRARIADOYODAO\src\livropack.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\DAVI-DESKTOP\Dropbox\UFC\LIP\LIVRARIADOYODAO\default.gpr</vfs_project>
+      <vfs_file>C:\Users\DAVI-DESKTOP\Dropbox\UFC\LIP\LIVRARIADOYODAO\src\livropack.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\DAVI-DESKTOP\Dropbox\UFC\LIP\LIVRARIADOYODAO\default.gpr</vfs_project>
+      <vfs_file>C:\Users\DAVI-DESKTOP\Dropbox\UFC\LIP\LIVRARIADOYODAO\src\livropack.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 6" line=" 7" >
+      <vfs_project>C:\Users\DAVI-DESKTOP\Dropbox\UFC\LIP\LIVRARIADOYODAO\default.gpr</vfs_project>
+      <vfs_file>C:\Users\DAVI-DESKTOP\Dropbox\UFC\LIP\LIVRARIADOYODAO\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 6" line=" 7" >
+      <vfs_project>C:\Users\DAVI-DESKTOP\Dropbox\UFC\LIP\LIVRARIADOYODAO\default.gpr</vfs_project>
+      <vfs_file>C:\Users\DAVI-DESKTOP\Dropbox\UFC\LIP\LIVRARIADOYODAO\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\DAVI-DESKTOP\Dropbox\UFC\LIP\LIVRARIADOYODAO\default.gpr</vfs_project>
+      <vfs_file>C:\Users\DAVI-DESKTOP\Dropbox\UFC\LIP\LIVRARIADOYODAO\src\livropack.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\DAVI-DESKTOP\Dropbox\UFC\LIP\LIVRARIADOYODAO\default.gpr</vfs_project>
+      <vfs_file>C:\Users\DAVI-DESKTOP\Dropbox\UFC\LIP\LIVRARIADOYODAO\src\livropack.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\DAVI-DESKTOP\Dropbox\UFC\LIP\LIVRARIADOYODAO\default.gpr</vfs_project>
+      <vfs_file>C:\Users\DAVI-DESKTOP\Dropbox\UFC\LIP\LIVRARIADOYODAO\src\livropack.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 6" line=" 7" >
+      <vfs_project>C:\Users\DAVI-DESKTOP\Dropbox\UFC\LIP\LIVRARIADOYODAO\default.gpr</vfs_project>
+      <vfs_file>C:\Users\DAVI-DESKTOP\Dropbox\UFC\LIP\LIVRARIADOYODAO\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 6" >
+      <vfs_project>C:\Users\DAVI-DESKTOP\Dropbox\UFC\LIP\LIVRARIADOYODAO\default.gpr</vfs_project>
+      <vfs_file>C:\Users\DAVI-DESKTOP\Dropbox\UFC\LIP\LIVRARIADOYODAO\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\DAVI-DESKTOP\Dropbox\UFC\LIP\LIVRARIADOYODAO\default.gpr</vfs_project>
+      <vfs_file>C:\Users\DAVI-DESKTOP\Dropbox\UFC\LIP\LIVRARIADOYODAO\src\livropack.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\DAVI-DESKTOP\Dropbox\UFC\LIP\LIVRARIADOYODAO\default.gpr</vfs_project>
+      <vfs_file>C:\Users\DAVI-DESKTOP\Dropbox\UFC\LIP\LIVRARIADOYODAO\src\livropack.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\DAVI-DESKTOP\Dropbox\UFC\LIP\LIVRARIADOYODAO\default.gpr</vfs_project>
+      <vfs_file>C:\Users\DAVI-DESKTOP\Dropbox\UFC\LIP\LIVRARIADOYODAO\src\livropack.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\DAVI-DESKTOP\Dropbox\UFC\LIP\LIVRARIADOYODAO\default.gpr</vfs_project>
+      <vfs_file>C:\Users\DAVI-DESKTOP\Dropbox\UFC\LIP\LIVRARIADOYODAO\src\livropack.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 6" >
+      <vfs_project>C:\Users\DAVI-DESKTOP\Dropbox\UFC\LIP\LIVRARIADOYODAO\default.gpr</vfs_project>
+      <vfs_file>C:\Users\DAVI-DESKTOP\Dropbox\UFC\LIP\LIVRARIADOYODAO\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\DAVI-DESKTOP\Dropbox\UFC\LIP\LIVRARIADOYODAO\default.gpr</vfs_project>
+      <vfs_file>C:\Users\DAVI-DESKTOP\Dropbox\UFC\LIP\LIVRARIADOYODAO\src\livropack.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 6" >
+      <vfs_project>C:\Users\DAVI-DESKTOP\Dropbox\UFC\LIP\LIVRARIADOYODAO\default.gpr</vfs_project>
+      <vfs_file>C:\Users\DAVI-DESKTOP\Dropbox\UFC\LIP\LIVRARIADOYODAO\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\DAVI-DESKTOP\Dropbox\UFC\LIP\LIVRARIADOYODAO\default.gpr</vfs_project>
+      <vfs_file>C:\Users\DAVI-DESKTOP\Dropbox\UFC\LIP\LIVRARIADOYODAO\src\livropack.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 6" >
+      <vfs_project>C:\Users\DAVI-DESKTOP\Dropbox\UFC\LIP\LIVRARIADOYODAO\default.gpr</vfs_project>
+      <vfs_file>C:\Users\DAVI-DESKTOP\Dropbox\UFC\LIP\LIVRARIADOYODAO\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 6" line=" 7" >
+      <vfs_project>C:\Users\DAVI-DESKTOP\Dropbox\UFC\LIP\LIVRARIADOYODAO\default.gpr</vfs_project>
+      <vfs_file>C:\Users\DAVI-DESKTOP\Dropbox\UFC\LIP\LIVRARIADOYODAO\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\DAVI-DESKTOP\Dropbox\UFC\LIP\LIVRARIADOYODAO\default.gpr</vfs_project>
+      <vfs_file>C:\Users\DAVI-DESKTOP\Dropbox\UFC\LIP\LIVRARIADOYODAO\src\livropack.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 6" line=" 7" >
+      <vfs_project>C:\Users\DAVI-DESKTOP\Dropbox\UFC\LIP\LIVRARIADOYODAO\default.gpr</vfs_project>
+      <vfs_file>C:\Users\DAVI-DESKTOP\Dropbox\UFC\LIP\LIVRARIADOYODAO\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\DAVI-DESKTOP\Dropbox\UFC\LIP\LIVRARIADOYODAO\default.gpr</vfs_project>
+      <vfs_file>C:\Users\DAVI-DESKTOP\Dropbox\UFC\LIP\LIVRARIADOYODAO\src\livropack.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 6" line=" 7" >
+      <vfs_project>C:\Users\DAVI-DESKTOP\Dropbox\UFC\LIP\LIVRARIADOYODAO\default.gpr</vfs_project>
+      <vfs_file>C:\Users\DAVI-DESKTOP\Dropbox\UFC\LIP\LIVRARIADOYODAO\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\DAVI-DESKTOP\Dropbox\UFC\LIP\LIVRARIADOYODAO\default.gpr</vfs_project>
+      <vfs_file>C:\Users\DAVI-DESKTOP\Dropbox\UFC\LIP\LIVRARIADOYODAO\src\livropack.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 6" line=" 7" >
+      <vfs_project>C:\Users\DAVI-DESKTOP\Dropbox\UFC\LIP\LIVRARIADOYODAO\default.gpr</vfs_project>
+      <vfs_file>C:\Users\DAVI-DESKTOP\Dropbox\UFC\LIP\LIVRARIADOYODAO\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\DAVI-DESKTOP\Dropbox\UFC\LIP\LIVRARIADOYODAO\default.gpr</vfs_project>
+      <vfs_file>C:\Users\DAVI-DESKTOP\Dropbox\UFC\LIP\LIVRARIADOYODAO\src\livropack.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 9" >
+      <vfs_project>C:\Users\DAVI-DESKTOP\Dropbox\UFC\LIP\LIVRARIADOYODAO\default.gpr</vfs_project>
+      <vfs_file>C:\Users\DAVI-DESKTOP\Dropbox\UFC\LIP\LIVRARIADOYODAO\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 6" >
+      <vfs_project>C:\Users\DAVI-DESKTOP\Dropbox\UFC\LIP\LIVRARIADOYODAO\default.gpr</vfs_project>
+      <vfs_file>C:\Users\DAVI-DESKTOP\Dropbox\UFC\LIP\LIVRARIADOYODAO\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\DAVI-DESKTOP\Dropbox\UFC\LIP\LIVRARIADOYODAO\default.gpr</vfs_project>
+      <vfs_file>C:\Users\DAVI-DESKTOP\Dropbox\UFC\LIP\LIVRARIADOYODAO\src\livropack.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 6" >
+      <vfs_project>C:\Users\DAVI-DESKTOP\Dropbox\UFC\LIP\LIVRARIADOYODAO\default.gpr</vfs_project>
+      <vfs_file>C:\Users\DAVI-DESKTOP\Dropbox\UFC\LIP\LIVRARIADOYODAO\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 14" line=" 1" >
+      <vfs_project>C:\Users\DAVI-DESKTOP\Dropbox\UFC\LIP\LIVRARIADOYODAO\default.gpr</vfs_project>
+      <vfs_file>C:\Users\DAVI-DESKTOP\Dropbox\UFC\LIP\LIVRARIADOYODAO\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 6" line=" 7" >
+      <vfs_project>C:\Users\DAVI-DESKTOP\Dropbox\UFC\LIP\LIVRARIADOYODAO\default.gpr</vfs_project>
+      <vfs_file>C:\Users\DAVI-DESKTOP\Dropbox\UFC\LIP\LIVRARIADOYODAO\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 1" line=" 1" >
+      <vfs_project>C:\Users\DAVI-DESKTOP\Dropbox\UFC\LIP\LIVRARIADOYODAO\default.gpr</vfs_project>
+      <vfs_file>C:\Users\DAVI-DESKTOP\Dropbox\UFC\LIP\LIVRARIADOYODAO\src\livropack.ads</vfs_file>
+    </file_marker>
+  </Project>
+  <Project >
+    <vfs_file >C:\Users\DAVI-DESKTOP\Dropbox\UFC\LIP\LIVRARIADOYOD#195;#131;O\default.gpr</vfs_file>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project >C:\Users\DAVI-DESKTOP\Dropbox\UFC\LIP\LIVRARIADOYOD#195;#131;O\default.gpr</vfs_project>
+      <vfs_file >C:\Users\DAVI-DESKTOP\Dropbox\UFC\LIP\LIVRARIADOYOD#195;#131;O\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 10">
+      <vfs_project >C:\Users\DAVI-DESKTOP\Dropbox\UFC\LIP\LIVRARIADOYOD#195;#131;O\default.gpr</vfs_project>
+      <vfs_file >C:\Users\DAVI-DESKTOP\Dropbox\UFC\LIP\LIVRARIADOYOD#195;#131;O\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 3">
+      <vfs_project >C:\Users\DAVI-DESKTOP\Dropbox\UFC\LIP\LIVRARIADOYOD#195;#131;O\default.gpr</vfs_project>
+      <vfs_file >C:\Users\DAVI-DESKTOP\Dropbox\UFC\LIP\LIVRARIADOYOD#195;#131;O\src\livro.adb</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 4" line=" 11">
+      <vfs_project >C:\Users\DAVI-DESKTOP\Dropbox\UFC\LIP\LIVRARIADOYOD#195;#131;O\default.gpr</vfs_project>
+      <vfs_file >C:\Users\DAVI-DESKTOP\Dropbox\UFC\LIP\LIVRARIADOYOD#195;#131;O\src\livro.ads</vfs_file>
+    </file_marker>
+  </Project>
+</Locations>
