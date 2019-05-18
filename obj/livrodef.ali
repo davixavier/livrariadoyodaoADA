@@ -15,18 +15,20 @@ RV NO_LOCAL_ALLOCATORS
 RV NO_NESTED_FINALIZATION
 RV NO_SECONDARY_STACK
 RV NO_STANDARD_STORAGE_POOLS
+RV NO_DYNAMIC_SIZED_OBJECTS
 RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLICIT_LOOPS
 RV NO_ELABORATION_CODE
 RV SPARK_05
 
-U livrodef%b		livrodef.adb		088b6517 OO PK
+U livrodef%b		livrodef.adb		4a603106 OO PK
 Z ada.tags%s		a-tags.adb		a-tags.ali
 Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
 Z system.soft_links%s	s-soflin.adb		s-soflin.ali
 Z system.standard_library%s  s-stalib.adb	s-stalib.ali
 Z system.storage_pools.subpools%s  s-stposu.adb	s-stposu.ali
 
-U livrodef%s		livrodef.ads		f6e81ac2 EE OO PF PK
+U livrodef%s		livrodef.ads		25e3af79 EE OO PF PK
 W ada%s			ada.ads			ada.ali
 Z ada.exceptions%s	a-except.adb		a-except.ali
 Z ada.streams%s		a-stream.adb		a-stream.ali
@@ -54,8 +56,8 @@ D a-strunb.ads		20180524051738 8098c91f ada.strings.unbounded%s
 D a-tags.ads		20180524051738 491b781d ada.tags%s
 D a-unccon.ads		20180524051738 0e9b276f ada.unchecked_conversion%s
 D a-uncdea.ads		20180524051736 eff36322 ada.unchecked_deallocation%s
-D livrodef.ads		20190518011116 7670d3dd livrodef%s
-D livrodef.adb		20190518011124 7efbb6ca livrodef%b
+D livrodef.ads		20190518021702 a57b6666 livrodef%s
+D livrodef.adb		20190518021718 ef1b5760 livrodef%b
 D system.ads		20180524051738 32a08138 system%s
 D s-atocou.ads		20180524051738 b45c2d8d system.atomic_counters%s
 D s-exctab.ads		20180524051738 54135002 system.exception_table%s
@@ -83,42 +85,61 @@ X 7 a-string.ads
 16K13*Strings 35e16 13|1r10 1r37
 X 9 a-strunb.ads
 76K21*Unbounded 491e26 13|1w18 1r45
-79R9*Unbounded_String<5|43R9> 474e14 13|9r48 10r42 28r17 14|5r48 10r42
+79R9*Unbounded_String<5|43R9> 474e14 13|9r40 12r48 13r42 43r17 14|5r48 10r42
 X 13 livrodef.ads
-3K9*LivroDef 27E9 43l5 43e13 14|2b14 45l5 45t13
-6R9*Livro 9p14 9r33 10p13 10r28 12p14 12r34 13p13 13r29 15p14 15r39 16p13
-. 16r34 18p14 18r31 19p13 19r26 22r27 23r29 27c9 32e14 35r27 39r29 14|5r33
-. 10r28 15r34 20r29 25r39 30r34 35r31 40r26
-9U14*setNome 9<22 9>40 14|5b14 8l8 8t15
-9r22 self{6R9} 14|5b22 7m7
-9r40 value{9|79R9} 14|5b40 7r20
-10V13*getNome{9|79R9} 10>21 14|10b13 13l8 13t15
-10r21 self{6R9} 14|10b21 12r14
-12U14*setValor 12<23 12>41 14|15b14 18l8 18t16
-12r23 self{6R9} 14|15b23 17m7
-12f41 value{float} 14|15b41 17r21
-13V13*getValor{float} 13>22 14|20b13 23l8 23t16
-13r22 self{6R9} 14|20b22 22r14
-15U14*setQuantidade 15<28 15>46 14|25b14 28l8 28t21
-15r28 self{6R9} 14|25b28 27m7
-15i46 value{integer} 14|25b46 27r26
-16V13*getQuantidade{integer} 16>27 14|30b13 33l8 33t21
-16r27 self{6R9} 14|30b27 32r14
-18U14*setID 18<20 18>38 14|35b14 38l8 38t13
-18r20 self{6R9} 14|35b20 37m7
-18i38 value{integer} 14|35b38 37r18
-19V13*getID{integer} 19>19 14|40b13 43l8 43t13
-19r19 self{6R9} 14|40b19 42r14
-22R9*LivroDrama<6R9> 9p14 10p13 12p14 13p13 15p14 16p13 18p14 19p13 35c9
-. 37e14
-23R9*LivroComedia<6R9> 9p14 10p13 12p14 13p13 15p14 16p13 18p14 19p13 39c9
-. 41e14
-28r10*Nome{9|79R9} 14|7m12 12r19
-29f10*Valor{float} 14|17m12 22r19
-30i10*Quantidade{integer} 14|27m12 32r19
-31i10*ID{integer} 14|37m12 42r19
-36b7 CapaDura{boolean}
-40b7 CapaBrochura{boolean}
+3K9*LivroDef 42E9 62l5 62e13 14|2b14 76l5 76t13
+6R9*Livro 12p14 12r33 13p13 13r28 15p14 15r34 16p13 16r29 18p14 18r39 19p13
+. 19r34 21p14 21r31 22p13 22r26 25r27 30r29 35r30 42c9 47e14 50r27 54r29
+. 58r30 14|5r33 10r28 15r34 20r29 25r39 30r34 35r31 40r26
+9A9*Arquivos(9|79R9)<integer> 37r63 38r57 59r21 14|66r63 71r57
+12U14*setNome 12<22 12>40 14|5b14 8l8 8t15
+12r22 self{6R9} 14|5b22 7m7
+12r40 value{9|79R9} 14|5b40 7r20
+13V13*getNome{9|79R9} 13>21 14|10b13 13l8 13t15
+13r21 self{6R9} 14|10b21 12r14
+15U14*setValor 15<23 15>41 14|15b14 18l8 18t16
+15r23 self{6R9} 14|15b23 17m7
+15f41 value{float} 14|15b41 17r21
+16V13*getValor{float} 16>22 14|20b13 23l8 23t16
+16r22 self{6R9} 14|20b22 22r14
+18U14*setQuantidade 18<28 18>46 14|25b14 28l8 28t21
+18r28 self{6R9} 14|25b28 27m7
+18i46 value{integer} 14|25b46 27r26
+19V13*getQuantidade{integer} 19>27 14|30b13 33l8 33t21
+19r27 self{6R9} 14|30b27 32r14
+21U14*setID 21<20 21>38 14|35b14 38l8 38t13
+21r20 self{6R9} 14|35b20 37m7
+21i38 value{integer} 14|35b38 37r18
+22V13*getID{integer} 22>19 14|40b13 43l8 43t13
+22r19 self{6R9} 14|40b19 42r14
+25R9*LivroDrama<6R9> 12p14 13p13 15p14 16p13 18p14 19p13 21p14 22p13 27p14
+. 27r37 28p13 28r32 50c9 52e14 14|46r37 51r32
+27U14*setCapaDura 27<26 27>49 14|46b14 49l8 49t19
+27r26 self{25R9} 14|46b26 48m7
+27b49 value{boolean} 14|46b49 48r24
+28V13*getCapaDura{boolean} 28>25 14|51b13 54l8 54t19
+28r25 self{25R9} 14|51b25 53r14
+30R9*LivroComedia<6R9> 12p14 13p13 15p14 16p13 18p14 19p13 21p14 22p13 32p14
+. 32r41 33p13 33r36 54c9 56e14 14|56r41 61r36
+32U14*setCapaBrochura 32<30 32>55 14|56b14 59l8 59t23
+32r30 self{30R9} 14|56b30 58m7
+32b55 value{boolean} 14|56b55 58r28
+33V13*getCapaBrochura{boolean} 33>29 14|61b13 64l8 64t23
+33r29 self{30R9} 14|61b29 63r14
+35R9*LivroAventura<6R9> 12p14 13p13 15p14 16p13 18p14 19p13 21p14 22p13 37p14
+. 37r40 38p13 38r35 58c9 60e14 14|66r40 71r35
+37U14*setIlustracoes 37<29 37>55 14|66b14 69l8 69t22
+37r29 self{35R9} 14|66b29 68m7
+37a55 value{9A9} 14|66b55 68r27
+38V13*getIlustracoes{9A9} 38>28 14|71b13 74l8 74t22
+38r28 self{35R9} 14|71b28 73r14
+43r10*Nome{9|79R9} 14|7m12 12r19
+44f10*Valor{float} 14|17m12 22r19
+45i10*Quantidade{integer} 14|27m12 32r19
+46i10*ID{integer} 14|37m12 42r19
+51b7 CapaDura{boolean} 14|48m12 53r19
+55b7 CapaBrochura{boolean} 14|58m12 63r19
+59a7 Ilustracoes{9A9} 14|68m12 73r19
 X 15 system.ads
 67M9*Address
 X 20 s-memory.ads

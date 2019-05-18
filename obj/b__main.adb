@@ -289,10 +289,10 @@ package body ada_main is
    end;
 
 --  BEGIN Object file/option list
-   --   C:\Users\DAVI-DESKTOP\Dropbox\UFC\LIP\LIVRARIADOYODAO\obj\livrodef.o
-   --   C:\Users\DAVI-DESKTOP\Dropbox\UFC\LIP\LIVRARIADOYODAO\obj\main.o
-   --   -LC:\Users\DAVI-DESKTOP\Dropbox\UFC\LIP\LIVRARIADOYODAO\obj\
-   --   -LC:\Users\DAVI-DESKTOP\Dropbox\UFC\LIP\LIVRARIADOYODAO\obj\
+   --   C:\Users\DAVI-DESKTOP\Documents\GitHub\livrariadoyodaoADA\obj\livrodef.o
+   --   C:\Users\DAVI-DESKTOP\Documents\GitHub\livrariadoyodaoADA\obj\main.o
+   --   -LC:\Users\DAVI-DESKTOP\Documents\GitHub\livrariadoyodaoADA\obj\
+   --   -LC:\Users\DAVI-DESKTOP\Documents\GitHub\livrariadoyodaoADA\obj\
    --   -LC:/gnat/2018/lib/gcc/x86_64-pc-mingw32/7.3.1/adalib/
    --   -static
    --   -lgnat
