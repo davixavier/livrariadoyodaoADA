@@ -16,8 +16,13 @@ package body LivrariaDef is
    begin
       for i in 0..self.Size loop
          if self.Livros(i).getID = id then
-            self.Livros(i) := null;
-            self.Size := self.Size - 1;
+            if self.Livros(i).getQuantidade = 1 then
+               self.Livros(i) := null;
+               self.Size := self.Size - 1;
+            else
+               self.Livros(i).setQuantidade(self.Livros(i).getQuantidade - 1);
+            end if;
+
             return;
          end if;
       end loop;
@@ -30,7 +35,7 @@ package body LivrariaDef is
       LF : Character := Character'Val(10);
       NL : constant String := CR & LF;
    begin
-      str := "Quantidade de livros em estoque: " & To_Unbounded_String(Natural'Image(self.Size));
+      str := "##>> Quantidade de livros em estoque: " & To_Unbounded_String(Natural'Image(self.Size));
       str := str & NL & NL;
 
       if self.Size = 0 then
@@ -39,10 +44,10 @@ package body LivrariaDef is
 
       for i in 0..self.Livros'Length-1 loop
          if self.Livros(i) /= null then
-            str := str & "Livro " & To_Unbounded_String(Natural'Image(self.Livros(i).getID)) & NL;
-            str := str & "    Nome: " & self.Livros(i).getNome & NL;
-            str := str & "    Valor: " & To_Unbounded_String(Float'Image(self.Livros(i).getValor)) & NL;
-            str := str & "    Quantidade em estoque: " & To_Unbounded_String(Natural'Image(self.Livros(i).getQuantidade)) & NL;
+            str := str & "##>> Livro " & To_Unbounded_String(Natural'Image(self.Livros(i).getID)) & NL;
+            str := str & "      -Nome: " & self.Livros(i).getNome & NL;
+            str := str & "      -Valor: " & To_Unbounded_String(Float'Image(self.Livros(i).getValor)) & NL;
+            str := str & "      -Quantidade em estoque: " & To_Unbounded_String(Natural'Image(self.Livros(i).getQuantidade)) & NL;
          end if;
 
       end loop;

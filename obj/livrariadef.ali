@@ -21,7 +21,7 @@ RV NO_IMPLICIT_LOOPS
 RV NO_ELABORATION_CODE
 RV SPARK_05
 
-U livrariadef%b		livrariadef.adb		082ccec2 OO PK
+U livrariadef%b		livrariadef.adb		f8a07aeb OO PK
 Z ada.exceptions%s	a-except.adb		a-except.ali
 Z ada.tags%s		a-tags.adb		a-tags.ali
 Z interfaces%s		interfac.ads		interfac.ali
@@ -67,7 +67,7 @@ D a-unccon.ads		20180524051738 0e9b276f ada.unchecked_conversion%s
 D a-uncdea.ads		20180524051736 eff36322 ada.unchecked_deallocation%s
 D interfac.ads		20180524051736 5ab55268 interfaces%s
 D livrariadef.ads	20190518165650 2d0a9b23 livrariadef%s
-D livrariadef.adb	20190518165752 252655e1 livrariadef%b
+D livrariadef.adb	20190520020824 d5aae1c8 livrariadef%b
 D livrodef.ads		20190518162748 e2da6c02 livrodef%s
 D system.ads		20180524051738 32a08138 system%s
 D s-atocou.ads		20180524051738 b45c2d8d system.atomic_counters%s
@@ -99,53 +99,54 @@ X 7 a-string.ads
 16K13*Strings 35e16 14|2r10 2r37
 X 9 a-strunb.ads
 76K21*Unbounded 491e26 14|2w18 2r45
-79R9*Unbounded_String<5|43R9> 474e14 14|16r54 15|27r54 28r13
-94V13*To_Unbounded_String{79R9} 15|33s52 42s37 44s42 45s58
-119V14*"&"{79R9} 15|42s35 43s39 44s40 45s56
-123V14*"&"{79R9} 15|34s18 34s23 42s24 42s94 43s24 43s64 44s24 44s100 45s24
-. 45s123
-127V14*"&"{79R9} 15|33s50
+79R9*Unbounded_String<5|43R9> 474e14 14|16r54 15|32r54 33r13
+94V13*To_Unbounded_String{79R9} 15|38s57 47s42 49s45 50s61
+119V14*"&"{79R9} 15|47s40 48s42 49s43 50s59
+123V14*"&"{79R9} 15|39s18 39s23 47s24 47s99 48s24 48s67 49s24 49s103 50s24
+. 50s126
+127V14*"&"{79R9} 15|38s55
 X 14 livrariadef.ads
-4K9*LivrariaDef 23E9 31l5 31e16 15|1b14 69l5 69t16
+4K9*LivrariaDef 23E9 31l5 31e16 15|1b14 74l5 74t16
 7R9*Livraria 14p14 14r40 15p14 15r37 16p13 16r37 17p13 17r32 18p13 18r28
-. 23c9 28e17 15|4r40 15r37 27r37 53r32 64r28
-9P9*LivroPtr(16|6R9) 11r42 17r63 15|5r18 53r63
+. 23c9 28e17 15|4r40 15r37 32r37 58r32 69r28
+9P9*LivroPtr(16|6R9) 11r42 17r63 15|5r18 58r63
 11A9*LivroArray(9P9)<integer> 26r19
 14U14*adicionarLivro 14<29 14>50 15|4b14 13l8 13t22
 14r29 self{7R9} 15|4b29 9r26 10m7 10r19 12m7 12r20
 14r50 value{16|6R9} 15|4b50 8r23
-15U14*venderLivro 15<26 15>47 15|15b14 24l8 24t19
-15r26 self{7R9} 15|15b26 17r19 18r13 19m13 20m13 20r26
+15U14*venderLivro 15<26 15>47 15|15b14 29l8 29t19
+15r26 self{7R9} 15|15b26 17r19 18r13 19r16 20m16 21m16 21r29 23r16 23r45
 15i47 id{natural} 15|15b47 18r36
-16V13*consultarEstoque{9|79R9} 16>30 15|27b13 51l8 51t24
-16r30 self{7R9} 15|27b30 33r86 36r10 40r19 41r13 42r71 43r41 44r74 45r92
-17V13*buscarLivro{9P9} 17>25 17>42 15|53b13 62l8 62t19
-17r25 self{7R9} 15|53b25 55r19 56r13 57r20
-17i42 id{natural} 15|53b42 56r36
-18V13*getSize{natural} 18>21 15|64b13 67l8 67t15
-18r21 self{7R9} 15|64b21 66r14
-26a10*Livros{11A9} 15|10m12 18r18 19m18 40r24 41r18 42r76 43r46 44r79 45r97
-. 56r18 57r25
-27i10*Size{natural} 15|9r31 10r24 12m12 12r25 17r24 20m18 20r31 33r91 36r15
-. 55r24 66r19
+16V13*consultarEstoque{9|79R9} 16>30 15|32b13 56l8 56t24
+16r30 self{7R9} 15|32b30 38r91 41r10 45r19 46r13 47r76 48r44 49r77 50r95
+17V13*buscarLivro{9P9} 17>25 17>42 15|58b13 67l8 67t19
+17r25 self{7R9} 15|58b25 60r19 61r13 62r20
+17i42 id{natural} 15|58b42 61r36
+18V13*getSize{natural} 18>21 15|69b13 72l8 72t15
+18r21 self{7R9} 15|69b21 71r14
+26a10*Livros{11A9} 15|10m12 18r18 19r21 20m21 23r21 23r50 45r24 46r18 47r81
+. 48r49 49r82 50r100 61r18 62r25
+27i10*Size{natural} 15|9r31 10r24 12m12 12r25 17r24 21m21 21r34 38r96 41r15
+. 60r24 71r19
 X 15 livrariadef.adb
 5p7 livroacc{14|9P9} 7m7 8r7 9r7 10r33
-17i11 i{integer} 18r25 19r25
-28r7 str{9|79R9} 33m7 34m7 34r14 37r17 42m13 42r20 43m13 43r20 44m13 44r20
-. 45m13 45r20 50r14
-29e7 CR{character} 31r31
-30e7 LF{character} 31r36
-31a7 NL{string} 34r20 34r25 42r96 43r66 44r102 45r125
-40i11 i{integer} 41r25 42r83 43r53 44r86 45r104
-55i11 i{integer} 56r25 57r32
+17i11 i{integer} 18r25 19r28 20r28 23r28 23r57
+33r7 str{9|79R9} 38m7 39m7 39r14 42r17 47m13 47r20 48m13 48r20 49m13 49r20
+. 50m13 50r20 55r14
+34e7 CR{character} 36r31
+35e7 LF{character} 36r36
+36a7 NL{string} 39r20 39r25 47r101 48r69 49r105 50r128
+45i11 i{integer} 46r25 47r88 48r56 49r89 50r107
+60i11 i{integer} 61r25 62r32
 X 16 livrodef.ads
 3K9*LivroDef 14|1w6 1r20 16|62e13
 6R9*Livro 14|9r32 14r58 15|4r58 7r23 16|47e14
-13V13*getNome{9|79R9} 15|43s56
-16V13*getValor{float} 15|44s89
-19V13*getQuantidade{natural} 15|45s107
+13V13*getNome{9|79R9} 15|48s59
+16V13*getValor{float} 15|49s92
+18U14*setQuantidade 15|23s31
+19V13*getQuantidade{natural} 15|19s31 23s60 50s110
 21U14*setID 15|9s20
-22V13*getID{natural} 15|18s28 42s86 56s28
+22V13*getID{natural} 15|18s28 47s91 61s28
 X 17 system.ads
 67M9*Address
 X 24 s-memory.ads

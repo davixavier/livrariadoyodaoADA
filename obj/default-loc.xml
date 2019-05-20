@@ -1,53 +1,22 @@
 <?xml version="1.0"?>
-<Locations >
+<Locations>
   <Project>
     <vfs_file>C:\Users\DAVI-DESKTOP\Documents\GitHub\livrariadoyodaoADA\default.gpr</vfs_file>
-    <file_marker column=" 29" line=" 15" >
+    <file_marker column=" 40" line=" 85" >
       <vfs_project>C:\Users\DAVI-DESKTOP\Documents\GitHub\livrariadoyodaoADA\default.gpr</vfs_project>
       <vfs_file>C:\Users\DAVI-DESKTOP\Documents\GitHub\livrariadoyodaoADA\src\main.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 24" line=" 40" >
+    <file_marker column=" 31" line=" 50" >
       <vfs_project>C:\Users\DAVI-DESKTOP\Documents\GitHub\livrariadoyodaoADA\default.gpr</vfs_project>
       <vfs_file>C:\Users\DAVI-DESKTOP\Documents\GitHub\livrariadoyodaoADA\src\Livraria\livrariadef.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 29" line=" 1" >
+    <file_marker column=" 21" line=" 10" >
       <vfs_project>C:\Users\DAVI-DESKTOP\Documents\GitHub\livrariadoyodaoADA\default.gpr</vfs_project>
       <vfs_file>C:\Users\DAVI-DESKTOP\Documents\GitHub\livrariadoyodaoADA\src\Livraria\livrariadef.ads</vfs_file>
     </file_marker>
-    <file_marker column=" 4" line=" 16" >
+    <file_marker current="true" column=" 30" line=" 44" >
       <vfs_project>C:\Users\DAVI-DESKTOP\Documents\GitHub\livrariadoyodaoADA\default.gpr</vfs_project>
-      <vfs_file>C:\Users\DAVI-DESKTOP\Documents\GitHub\livrariadoyodaoADA\src\main.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 23" line=" 20" >
-      <vfs_project>C:\Users\DAVI-DESKTOP\Documents\GitHub\livrariadoyodaoADA\default.gpr</vfs_project>
-      <vfs_file>C:\Users\DAVI-DESKTOP\Documents\GitHub\livrariadoyodaoADA\src\Livraria\livrariadef.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 10" line=" 41" >
-      <vfs_project>C:\Users\DAVI-DESKTOP\Documents\GitHub\livrariadoyodaoADA\default.gpr</vfs_project>
-      <vfs_file>C:\Users\DAVI-DESKTOP\Documents\GitHub\livrariadoyodaoADA\src\Livraria\livrariadef.adb</vfs_file>
-    </file_marker>
-    <file_marker current="true" column=" 1" line=" 1" >
-      <vfs_project>C:\Users\DAVI-DESKTOP\Documents\GitHub\livrariadoyodaoADA\default.gpr</vfs_project>
-      <vfs_file>C:\Users\DAVI-DESKTOP\Documents\GitHub\livrariadoyodaoADA\src\Livraria\livrariadef.adb</vfs_file>
-    </file_marker>
-  </Project>
-  <Project >
-    <vfs_file >C:\Users\DAVI-DESKTOP\Dropbox\UFC\LIP\LIVRARIADOYOD#195;#131;O\default.gpr</vfs_file>
-    <file_marker column=" 1" line=" 1">
-      <vfs_project >C:\Users\DAVI-DESKTOP\Dropbox\UFC\LIP\LIVRARIADOYOD#195;#131;O\default.gpr</vfs_project>
-      <vfs_file >C:\Users\DAVI-DESKTOP\Dropbox\UFC\LIP\LIVRARIADOYOD#195;#131;O\src\main.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 10">
-      <vfs_project >C:\Users\DAVI-DESKTOP\Dropbox\UFC\LIP\LIVRARIADOYOD#195;#131;O\default.gpr</vfs_project>
-      <vfs_file >C:\Users\DAVI-DESKTOP\Dropbox\UFC\LIP\LIVRARIADOYOD#195;#131;O\src\main.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 4" line=" 3">
-      <vfs_project >C:\Users\DAVI-DESKTOP\Dropbox\UFC\LIP\LIVRARIADOYOD#195;#131;O\default.gpr</vfs_project>
-      <vfs_file >C:\Users\DAVI-DESKTOP\Dropbox\UFC\LIP\LIVRARIADOYOD#195;#131;O\src\livro.adb</vfs_file>
-    </file_marker>
-    <file_marker current="true" column=" 4" line=" 11">
-      <vfs_project >C:\Users\DAVI-DESKTOP\Dropbox\UFC\LIP\LIVRARIADOYOD#195;#131;O\default.gpr</vfs_project>
-      <vfs_file >C:\Users\DAVI-DESKTOP\Dropbox\UFC\LIP\LIVRARIADOYOD#195;#131;O\src\livro.ads</vfs_file>
+      <vfs_file>C:\Users\DAVI-DESKTOP\Documents\GitHub\livrariadoyodaoADA\src\Livro\livrodef.ads</vfs_file>
     </file_marker>
   </Project>
 </Locations>

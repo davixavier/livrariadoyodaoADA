@@ -37,7 +37,7 @@ package ada_main is
    pragma Export (C, main, "main");
 
    type Version_32 is mod 2 ** 32;
-   u00001 : constant Version_32 := 16#1cc2662e#;
+   u00001 : constant Version_32 := 16#a36a0f7e#;
    pragma Export (C, u00001, "mainB");
    u00002 : constant Version_32 := 16#050ff2f0#;
    pragma Export (C, u00002, "system__standard_libraryB");
@@ -307,7 +307,7 @@ package ada_main is
    pragma Export (C, u00134, "system__file_ioS");
    u00135 : constant Version_32 := 16#cf3f1b90#;
    pragma Export (C, u00135, "system__file_control_blockS");
-   u00136 : constant Version_32 := 16#082ccec2#;
+   u00136 : constant Version_32 := 16#f8a07aeb#;
    pragma Export (C, u00136, "livrariadefB");
    u00137 : constant Version_32 := 16#4f483e3e#;
    pragma Export (C, u00137, "livrariadefS");
@@ -351,6 +351,22 @@ package ada_main is
    pragma Export (C, u00156, "system__communicationB");
    u00157 : constant Version_32 := 16#2bc0d4ea#;
    pragma Export (C, u00157, "system__communicationS");
+   u00158 : constant Version_32 := 16#d763507a#;
+   pragma Export (C, u00158, "system__val_intB");
+   u00159 : constant Version_32 := 16#7a05ab07#;
+   pragma Export (C, u00159, "system__val_intS");
+   u00160 : constant Version_32 := 16#1d9142a4#;
+   pragma Export (C, u00160, "system__val_unsB");
+   u00161 : constant Version_32 := 16#168e1080#;
+   pragma Export (C, u00161, "system__val_unsS");
+   u00162 : constant Version_32 := 16#c2ca0511#;
+   pragma Export (C, u00162, "system__val_realB");
+   u00163 : constant Version_32 := 16#cc89f629#;
+   pragma Export (C, u00163, "system__val_realS");
+   u00164 : constant Version_32 := 16#b2a569d2#;
+   pragma Export (C, u00164, "system__exn_llfB");
+   u00165 : constant Version_32 := 16#8ede3ae4#;
+   pragma Export (C, u00165, "system__exn_llfS");
 
    --  BEGIN ELABORATION ORDER
    --  ada%s
@@ -362,6 +378,8 @@ package ada_main is
    --  system.address_operations%b
    --  system.atomic_counters%s
    --  system.atomic_counters%b
+   --  system.exn_llf%s
+   --  system.exn_llf%b
    --  system.float_control%s
    --  system.float_control%b
    --  system.img_bool%s
@@ -499,6 +517,12 @@ package ada_main is
    --  system.stream_attributes%b
    --  ada.strings.unbounded%s
    --  ada.strings.unbounded%b
+   --  system.val_real%s
+   --  system.val_real%b
+   --  system.val_uns%s
+   --  system.val_uns%b
+   --  system.val_int%s
+   --  system.val_int%b
    --  ada.text_io%s
    --  ada.text_io%b
    --  system.pool_global%s
