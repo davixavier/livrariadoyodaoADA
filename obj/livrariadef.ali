@@ -21,13 +21,11 @@ RV NO_IMPLICIT_LOOPS
 RV NO_ELABORATION_CODE
 RV SPARK_05
 
-U livrariadef%b		livrariadef.adb		f8a07aeb OO PK
+U livrariadef%b		livrariadef.adb		e8a1ffb5 OO PK
 Z ada.exceptions%s	a-except.adb		a-except.ali
 Z ada.tags%s		a-tags.adb		a-tags.ali
-Z interfaces%s		interfac.ads		interfac.ali
 Z system%s		system.ads		system.ali
 Z system.img_int%s	s-imgint.adb		s-imgint.ali
-Z system.img_real%s	s-imgrea.adb		s-imgrea.ali
 Z system.pool_global%s	s-pooglo.adb		s-pooglo.ali
 Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
 Z system.soft_links%s	s-soflin.adb		s-soflin.ali
@@ -36,7 +34,7 @@ Z system.storage_elements%s  s-stoele.adb	s-stoele.ali
 Z system.storage_pools%s  s-stopoo.adb		s-stopoo.ali
 Z system.storage_pools.subpools%s  s-stposu.adb	s-stposu.ali
 
-U livrariadef%s		livrariadef.ads		4f483e3e EE OO PF PK
+U livrariadef%s		livrariadef.ads		3a820930 EE OO PF PK
 W ada%s			ada.ads			ada.ali
 Z ada.exceptions%s	a-except.adb		a-except.ali
 Z ada.streams%s		a-stream.adb		a-stream.ali
@@ -65,9 +63,8 @@ D a-strunb.ads		20180524051738 8098c91f ada.strings.unbounded%s
 D a-tags.ads		20180524051738 491b781d ada.tags%s
 D a-unccon.ads		20180524051738 0e9b276f ada.unchecked_conversion%s
 D a-uncdea.ads		20180524051736 eff36322 ada.unchecked_deallocation%s
-D interfac.ads		20180524051736 5ab55268 interfaces%s
-D livrariadef.ads	20190518165650 2d0a9b23 livrariadef%s
-D livrariadef.adb	20190520020824 d5aae1c8 livrariadef%b
+D livrariadef.ads	20190521012610 58c0ac2d livrariadef%s
+D livrariadef.adb	20190521015628 b0615398 livrariadef%b
 D livrodef.ads		20190518162748 e2da6c02 livrodef%s
 D system.ads		20180524051738 32a08138 system%s
 D s-atocou.ads		20180524051738 b45c2d8d system.atomic_counters%s
@@ -75,7 +72,6 @@ D s-exctab.ads		20180524051738 54135002 system.exception_table%s
 D s-finmas.ads		20180524051738 7811a767 system.finalization_masters%s
 D s-finroo.ads		20180524051738 4ff27390 system.finalization_root%s
 D s-imgint.ads		20180524051736 02dbe0c2 system.img_int%s
-D s-imgrea.ads		20180524051736 c7a851e2 system.img_real%s
 D s-memory.ads		20180524051736 597d6634 system.memory%s
 D s-parame.ads		20180524051738 48ec542b system.parameters%s
 D s-pooglo.ads		20180524051736 ede33ef8 system.pool_global%s
@@ -94,65 +90,68 @@ D s-ststop.ads		20180524051736 5fbf1b38 system.strings.stream_ops%s
 D s-traent.ads		20180524051736 005bf670 system.traceback_entries%s
 D s-unstyp.ads		20180524051736 34867c83 system.unsigned_types%s
 X 1 ada.ads
-16K9*Ada 20e8 14|2r6 2r33
+16K9*Ada 20e8 13|2r6 2r33
 X 7 a-string.ads
-16K13*Strings 35e16 14|2r10 2r37
+16K13*Strings 35e16 13|2r10 2r37
 X 9 a-strunb.ads
-76K21*Unbounded 491e26 14|2w18 2r45
-79R9*Unbounded_String<5|43R9> 474e14 14|16r54 15|32r54 33r13
-94V13*To_Unbounded_String{79R9} 15|38s57 47s42 49s45 50s61
-119V14*"&"{79R9} 15|47s40 48s42 49s43 50s59
-123V14*"&"{79R9} 15|39s18 39s23 47s24 47s99 48s24 48s67 49s24 49s103 50s24
-. 50s126
-127V14*"&"{79R9} 15|38s55
-X 14 livrariadef.ads
-4K9*LivrariaDef 23E9 31l5 31e16 15|1b14 74l5 74t16
-7R9*Livraria 14p14 14r40 15p14 15r37 16p13 16r37 17p13 17r32 18p13 18r28
-. 23c9 28e17 15|4r40 15r37 32r37 58r32 69r28
-9P9*LivroPtr(16|6R9) 11r42 17r63 15|5r18 58r63
+76K21*Unbounded 491e26 13|2w18 2r45
+79R9*Unbounded_String<5|43R9> 474e14 13|16r54 14|44r54 45r13
+94V13*To_Unbounded_String{79R9} 14|52s57 61s42 65s45 68s33 70s61
+119V14*"&"{79R9} 14|61s40 62s42 65s43 68s31 70s59
+123V14*"&"{79R9} 14|53s18 53s23 61s24 61s99 62s24 62s67 65s24 68s24 68s77
+. 70s24 70s126
+127V14*"&"{79R9} 14|52s55
+X 13 livrariadef.ads
+4K9*LivrariaDef 23E9 31l5 31e16 14|2b14 102l5 102t16
+7R9*Livraria 14p14 14r40 15p13 15r36 16p13 16r37 17p13 17r32 18p13 18r28
+. 23c9 28e17 14|5r40 16r36 44r37 78r32 97r28
+9P9*LivroPtr(15|6R9) 11r42 17r63 14|6r18 78r63
 11A9*LivroArray(9P9)<integer> 26r19
-14U14*adicionarLivro 14<29 14>50 15|4b14 13l8 13t22
-14r29 self{7R9} 15|4b29 9r26 10m7 10r19 12m7 12r20
-14r50 value{16|6R9} 15|4b50 8r23
-15U14*venderLivro 15<26 15>47 15|15b14 29l8 29t19
-15r26 self{7R9} 15|15b26 17r19 18r13 19r16 20m16 21m16 21r29 23r16 23r45
-15i47 id{natural} 15|15b47 18r36
-16V13*consultarEstoque{9|79R9} 16>30 15|32b13 56l8 56t24
-16r30 self{7R9} 15|32b30 38r91 41r10 45r19 46r13 47r76 48r44 49r77 50r95
-17V13*buscarLivro{9P9} 17>25 17>42 15|58b13 67l8 67t19
-17r25 self{7R9} 15|58b25 60r19 61r13 62r20
-17i42 id{natural} 15|58b42 61r36
-18V13*getSize{natural} 18>21 15|69b13 72l8 72t15
-18r21 self{7R9} 15|69b21 71r14
-26a10*Livros{11A9} 15|10m12 18r18 19r21 20m21 23r21 23r50 45r24 46r18 47r81
-. 48r49 49r82 50r100 61r18 62r25
-27i10*Size{natural} 15|9r31 10r24 12m12 12r25 17r24 21m21 21r34 38r96 41r15
-. 60r24 71r19
-X 15 livrariadef.adb
-5p7 livroacc{14|9P9} 7m7 8r7 9r7 10r33
-17i11 i{integer} 18r25 19r28 20r28 23r28 23r57
-33r7 str{9|79R9} 38m7 39m7 39r14 42r17 47m13 47r20 48m13 48r20 49m13 49r20
-. 50m13 50r20 55r14
-34e7 CR{character} 36r31
-35e7 LF{character} 36r36
-36a7 NL{string} 39r20 39r25 47r101 48r69 49r105 50r128
-45i11 i{integer} 46r25 47r88 48r56 49r89 50r107
-60i11 i{integer} 61r25 62r32
-X 16 livrodef.ads
-3K9*LivroDef 14|1w6 1r20 16|62e13
-6R9*Livro 14|9r32 14r58 15|4r58 7r23 16|47e14
-13V13*getNome{9|79R9} 15|48s59
-16V13*getValor{float} 15|49s92
-18U14*setQuantidade 15|23s31
-19V13*getQuantidade{natural} 15|19s31 23s60 50s110
-21U14*setID 15|9s20
-22V13*getID{natural} 15|18s28 47s91 61s28
-X 17 system.ads
+14U14*adicionarLivro 14<29 14>50 14|5b14 14l8 14t22
+14r29 self{7R9} 14|5b29 10r26 11m7 11r19 13m7 13r20
+14r50 value{15|6R9} 14|5b50 9r23
+15V13*venderLivro{boolean} 15<25 15>46 14|16b13 41l8 41t19
+15r25 self{7R9} 14|16b25 18r10 22r19 24r13 26r16 27r16 28m16 29m16 29r29
+. 31r16 31r45
+15i46 id{natural} 14|16b46 26r39
+16V13*consultarEstoque{9|79R9} 16>30 14|44b13 76l8 76t24
+16r30 self{7R9} 14|44b30 52r91 55r10 59r19 60r13 61r76 62r44 64r32 67r33
+. 70r95
+17V13*buscarLivro{9P9} 17>25 17>42 14|78b13 95l8 95t19
+17r25 self{7R9} 14|78b25 80r19 82r13 84r16 86r23
+17i42 id{natural} 14|78b42 84r39
+18V13*getSize{natural} 18>21 14|97b13 100l8 100t15
+18r21 self{7R9} 14|97b21 99r14
+26a10*Livros{11A9} 14|11m12 22r24 24r18 26r21 27r21 28m21 31r21 31r50 59r24
+. 60r18 61r81 62r49 64r37 67r38 70r100 80r24 82r18 84r21 86r28
+27i10*Size{natural} 14|10r31 11r24 13m12 13r25 18r15 29m21 29r34 52r96 55r15
+. 99r19
+X 14 livrariadef.adb
+6p7 livroacc{13|9P9} 8m7 9r7 10r7 11r33
+22i11 i{integer} 24r25 26r28 27r28 28r28 31r28 31r57
+45r7 str{9|79R9} 52m7 53m7 53r14 56r17 61m13 61r20 62m13 62r20 65m13 65r20
+. 68m13 68r20 70m13 70r20 75r14
+46e7 CR{character} 48r31
+47e7 LF{character} 48r36
+48a7 NL{string} 53r20 53r25 61r101 62r69 68r79 70r128
+50i7 convert{integer} 64m13 65r79 67m13 67r65 68r67
+59i11 i{integer} 60r25 61r88 62r56 64r44 67r45 70r107
+80i11 i{integer} 82r25 84r28 86r35
+X 15 livrodef.ads
+3K9*LivroDef 13|1w6 1r20 15|62e13
+6R9*Livro 13|9r32 14r58 14|5r58 8r23 15|47e14
+13V13*getNome{9|79R9} 14|62s59
+16V13*getValor{float} 14|64s47 67s48
+18U14*setQuantidade 14|31s31
+19V13*getQuantidade{natural} 14|27s31 31s60 70s110
+21U14*setID 14|10s20
+22V13*getID{natural} 14|26s31 61s91 84s31
+X 16 system.ads
 67M9*Address
-X 24 s-memory.ads
-53V13*Alloc{17|67M9} 103i<c,__gnat_malloc>22
+X 22 s-memory.ads
+53V13*Alloc{16|67M9} 103i<c,__gnat_malloc>22
 68U14*Free 104i<c,__gnat_free>22
-76V13*Realloc{17|67M9} 105i<c,__gnat_realloc>22
-X 31 s-stalib.adb
+76V13*Realloc{16|67M9} 105i<c,__gnat_realloc>22
+X 29 s-stalib.adb
 93U14 Break_Start 94i<c,__gnat_break_start>22
 

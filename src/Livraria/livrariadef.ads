@@ -12,7 +12,7 @@ package LivrariaDef is
    
    --Subprogramas da livraria
    procedure adicionarLivro(self : out Livraria; value : Livro);
-   procedure venderLivro(self : out Livraria; id : Natural);
+   function venderLivro(self : out Livraria; id : Natural) return Boolean;
    function consultarEstoque(self : Livraria) return Unbounded_String;
    function buscarLivro(self : Livraria; id : Natural) return LivroPtr;
    function getSize(self : Livraria) return Natural;

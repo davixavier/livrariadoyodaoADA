@@ -1,3 +1,4 @@
+
 package body LivrariaDef is
 
    --Definição dos subprogramas da livraria
@@ -12,10 +13,17 @@ package body LivrariaDef is
       self.Size := self.Size + 1;
    end adicionarLivro;
 
-   procedure venderLivro(self : out Livraria; id : Natural) is
+   function venderLivro(self : out Livraria; id : Natural) return Boolean is
    begin
-      for i in 0..self.Size loop
-         if self.Livros(i).getID = id then
+      if self.Size = 0 then
+         return False;
+      end if;
+
+      for i in 0..self.Livros'Length-1 loop
+
+         if self.Livros(i) /= null then
+
+            if self.Livros(i).getID = id then
             if self.Livros(i).getQuantidade = 1 then
                self.Livros(i) := null;
                self.Size := self.Size - 1;
@@ -23,9 +31,13 @@ package body LivrariaDef is
                self.Livros(i).setQuantidade(self.Livros(i).getQuantidade - 1);
             end if;
 
-            return;
+            return True;
+            end if;
+
          end if;
       end loop;
+
+      return False;
    end venderLivro;
 
    --Retorna uma string com todas as informações to estoque
@@ -34,6 +46,8 @@ package body LivrariaDef is
       CR : Character := Character'Val(13);
       LF : Character := Character'Val(10);
       NL : constant String := CR & LF;
+
+      convert : Integer;
    begin
       str := "##>> Quantidade de livros em estoque: " & To_Unbounded_String(Natural'Image(self.Size));
       str := str & NL & NL;
@@ -46,7 +60,13 @@ package body LivrariaDef is
          if self.Livros(i) /= null then
             str := str & "##>> Livro " & To_Unbounded_String(Natural'Image(self.Livros(i).getID)) & NL;
             str := str & "      -Nome: " & self.Livros(i).getNome & NL;
-            str := str & "      -Valor: " & To_Unbounded_String(Float'Image(self.Livros(i).getValor)) & NL;
+
+            convert := Integer(self.Livros(i).getValor);
+            str := str & "      -Valor: " & To_Unbounded_String(Integer'Image(convert));
+
+            convert := Integer((self.Livros(i).getValor - Float(convert)) * 100.0);
+            str := str & " ." & To_Unbounded_String(Integer'Image(convert)) & NL;
+
             str := str & "      -Quantidade em estoque: " & To_Unbounded_String(Natural'Image(self.Livros(i).getQuantidade)) & NL;
          end if;
 
@@ -57,10 +77,18 @@ package body LivrariaDef is
 
    function buscarLivro(self : Livraria; id : Natural) return LivroPtr is
    begin
-      for i in 0..self.Size loop
-         if self.Livros(i).getID = id then
-            return self.Livros(i);
+      for i in 0..self.Livros'Length-1 loop
+
+         if self.Livros(i) /= null then
+
+            if self.Livros(i).getID = id then
+
+               return self.Livros(i);
+
+            end if;
+
          end if;
+
       end loop;
 
       return null;

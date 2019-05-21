@@ -27,14 +27,14 @@ package body ada_main is
    E120 : Short_Integer; pragma Import (Ada, E120, "system__finalization_root_E");
    E116 : Short_Integer; pragma Import (Ada, E116, "ada__finalization_E");
    E134 : Short_Integer; pragma Import (Ada, E134, "system__file_io_E");
-   E155 : Short_Integer; pragma Import (Ada, E155, "ada__streams__stream_io_E");
+   E147 : Short_Integer; pragma Import (Ada, E147, "ada__streams__stream_io_E");
    E122 : Short_Integer; pragma Import (Ada, E122, "system__storage_pools_E");
    E113 : Short_Integer; pragma Import (Ada, E113, "system__finalization_masters_E");
    E111 : Short_Integer; pragma Import (Ada, E111, "system__storage_pools__subpools_E");
    E097 : Short_Integer; pragma Import (Ada, E097, "ada__strings__unbounded_E");
    E130 : Short_Integer; pragma Import (Ada, E130, "ada__text_io_E");
-   E147 : Short_Integer; pragma Import (Ada, E147, "system__pool_global_E");
-   E151 : Short_Integer; pragma Import (Ada, E151, "livrodef_E");
+   E139 : Short_Integer; pragma Import (Ada, E139, "system__pool_global_E");
+   E143 : Short_Integer; pragma Import (Ada, E143, "livrodef_E");
    E137 : Short_Integer; pragma Import (Ada, E137, "livrariadef_E");
 
    Sec_Default_Sized_Stacks : array (1 .. 1) of aliased System.Secondary_Stack.SS_Stack (System.Parameters.Runtime_Default_Sec_Stack_Size);
@@ -53,14 +53,14 @@ package body ada_main is
       begin
          F1;
       end;
-      E151 := E151 - 1;
+      E143 := E143 - 1;
       declare
          procedure F2;
          pragma Import (Ada, F2, "livrodef__finalize_spec");
       begin
          F2;
       end;
-      E147 := E147 - 1;
+      E139 := E139 - 1;
       declare
          procedure F3;
          pragma Import (Ada, F3, "system__pool_global__finalize_spec");
@@ -95,7 +95,7 @@ package body ada_main is
       begin
          F7;
       end;
-      E155 := E155 - 1;
+      E147 := E147 - 1;
       declare
          procedure F8;
          pragma Import (Ada, F8, "ada__streams__stream_io__finalize_spec");
@@ -254,7 +254,7 @@ package body ada_main is
       System.File_Io'Elab_Body;
       E134 := E134 + 1;
       Ada.Streams.Stream_Io'Elab_Spec;
-      E155 := E155 + 1;
+      E147 := E147 + 1;
       System.Storage_Pools'Elab_Spec;
       E122 := E122 + 1;
       System.Finalization_Masters'Elab_Spec;
@@ -268,10 +268,10 @@ package body ada_main is
       Ada.Text_Io'Elab_Body;
       E130 := E130 + 1;
       System.Pool_Global'Elab_Spec;
-      E147 := E147 + 1;
+      E139 := E139 + 1;
       Livrodef'Elab_Spec;
       Livrodef'Elab_Body;
-      E151 := E151 + 1;
+      E143 := E143 + 1;
       Livrariadef'Elab_Spec;
       Livrariadef'Elab_Body;
       E137 := E137 + 1;

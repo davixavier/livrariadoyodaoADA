@@ -15,6 +15,8 @@ procedure Main is
    enter : Character;
 
    tempLivro : Livro;
+
+   convert : Integer;
 begin
 
    loop
@@ -67,9 +69,58 @@ begin
 
          Put_Line("##>> Livro adicionado com sucesso!" & NL & NL);
 
+      elsif input = "2" then
+
+         Put_Line("##>> Insira o ID do livro desejado: ");
+
+         input := To_Unbounded_String(Get_Line);
+
+
+         if liv.venderLivro(Integer'Value(To_String(input))) = True then
+            Put_Line("##>> Livro vendido com sucesso!");
+
+         else
+
+            Put_Line("##>> Livro nao encontrado");
+
+         end if;
+
       elsif input = "3" then
 
-            Put_Line(To_String(liv.consultarEstoque));
+         Put_Line(To_String(liv.consultarEstoque));
+
+      elsif input = "4" then
+
+         Put_Line("##>> Insira o ID do livro desejado: ");
+
+         input := To_Unbounded_String(Get_Line);
+
+         declare
+            tempLivroPtr : LivroPtr := liv.buscarLivro(Integer'Value(To_String(input)));
+         begin
+
+            if tempLivroPtr /= null then
+
+            input := input & "##>> Livro " & To_Unbounded_String(Natural'Image(tempLivroPtr.getID)) & NL;
+            input := input & "      -Nome: " & tempLivroPtr.getNome & NL;
+
+            convert := Integer(tempLivroPtr.getValor);
+            input := input & "      -Valor: " & To_Unbounded_String(Integer'Image(convert));
+
+            convert := Integer((tempLivroPtr.getValor - Float(convert)) * 100.0);
+            input := input & " ." & To_Unbounded_String(Integer'Image(convert)) & NL;
+
+            input := input & "      -Quantidade em estoque: " & To_Unbounded_String(Natural'Image(tempLivroPtr.getQuantidade)) & NL;
+
+            Put_Line(To_String(input));
+
+         else
+
+            Put_Line("##>> Livro nao encontrado!");
+
+         end if;
+
+         end;
 
       end if;
 
