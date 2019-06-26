@@ -1,0 +1,2 @@
+livrodef.ads:54:27: type derived from tagged type must have extension
+livrodef.ads:54:32: "," should be ";"

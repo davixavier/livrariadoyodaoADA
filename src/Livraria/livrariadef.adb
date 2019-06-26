@@ -13,6 +13,7 @@ package body LivrariaDef is
       self.Size := self.Size + 1;
    end adicionarLivro;
 
+   --Retira um exemplar especifico da livraria
    function venderLivro(self : out Livraria; id : Natural) return Boolean is
    begin
       if self.Size = 0 then
@@ -75,6 +76,7 @@ package body LivrariaDef is
       return str;
    end consultarEstoque;
 
+   --Retorna as informações de um livro
    function buscarLivro(self : Livraria; id : Natural) return LivroPtr is
    begin
       for i in 0..self.Livros'Length-1 loop
